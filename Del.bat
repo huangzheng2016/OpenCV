@@ -39,5 +39,10 @@ for /r . %%a in (*.log) do (
   echo "delete" %%a
   del "%%a" 
  )
+)for /r . %%a in (.vs) do (  
+  if exist %%a (
+  echo "delete" %%a
+  del "%%a" 
+ )
 )
 pause
