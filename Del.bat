@@ -34,4 +34,10 @@ for /r . %%a in (Browse.VC.db) do (
   del "%%a" 
  )
 )
+for /r . %%a in (*.log) do (  
+  if exist %%a (
+  echo "delete" %%a
+  del "%%a" 
+ )
+)
 pause
