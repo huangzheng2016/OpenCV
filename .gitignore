@@ -1,6 +1,5 @@
 *.ilk
 *.pdb
-MatControl/x64/Debug/
 *.tlog
 *.idb
 *.log
@@ -10,6 +9,6 @@ MatControl/x64/Debug/
 *.db-shm
 *.suo
 *.exe
-Hello World/x64/Debug/
 Solution.VC.db
 Browse.VC.db
+*/x64
