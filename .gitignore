@@ -1,0 +1,15 @@
+*.ilk
+*.pdb
+MatControl/x64/Debug/
+*.tlog
+*.idb
+*.log
+*.ipch
+*.db-wal
+*.opendb
+*.db-shm
+*.suo
+*.exe
+Hello World/x64/Debug/
+Solution.VC.db
+Browse.VC.db
