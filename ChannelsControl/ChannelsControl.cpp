@@ -9,10 +9,14 @@ int main() {
 	imshow("Blue", mv[0]);
 	imshow("Green", mv[1]);
 	imshow("Red", mv[2]);
-	Mat src;
+	Mat src1,src2;
 	mv[1] = mv[2] = 0;
-	merge(mv, src);
-	imshow("True Blue", src);
+	merge(mv, src1);
+	imshow("True Blue", src1);
+	src2 = src1;
+	int from_to[] = { 0,2,1,1,2,0 };
+	mixChannels(&img,1, &src2, 1, from_to, 3);
+	imshow("Mix", src2);
 	waitKey(0);
 	destroyAllWindows();
 	return 0;
