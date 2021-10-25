@@ -2,7 +2,7 @@
 //#include<cstdio>
 using namespace cv;
 int main() {
-	Mat img = imread("hz2016.jpg"),gray,hsv;
+	Mat img = imread("hz2016.jpg"), gray, hsv;
 	//三通道顺序，B,G,R
 	cvtColor(img, gray, COLOR_BGR2GRAY);
 	cvtColor(img, hsv, COLOR_BGR2HSV);

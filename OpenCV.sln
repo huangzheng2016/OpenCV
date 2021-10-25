@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello World", "Hello World\Hello World.vcxproj", "{2E74FA70-C44E-4BB5-ACFA-66659318A72A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorSpace", "ColorSpace\ColorSpace.vcxproj", "{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatControl", "MatControl\MatControl.vcxproj", "{0552AA64-1AA7-44AD-B938-6278FB520540}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageChange", "ImageChange\ImageChange.vcxproj", "{B52C2389-2A2F-4564-AE88-9F810BF0A704}"
@@ -22,6 +20,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitwise", "Bitwise\Bitwise.vcxproj", "{955F164A-4DDD-40BB-8149-ACCA79AFF184}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChannelsControl", "ChannelsControl\ChannelsControl.vcxproj", "{A60CF30B-EC9D-4AD2-B13B-97FD938C2E9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cvtColorPro", "cvtColorPro\cvtColorPro.vcxproj", "{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorSpace", "ColorSpace\ColorSpace.vcxproj", "{9B16DCCA-7F84-460D-9785-23E1799D93E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +41,6 @@ Global
 		{2E74FA70-C44E-4BB5-ACFA-66659318A72A}.Release|x64.Build.0 = Release|x64
 		{2E74FA70-C44E-4BB5-ACFA-66659318A72A}.Release|x86.ActiveCfg = Release|Win32
 		{2E74FA70-C44E-4BB5-ACFA-66659318A72A}.Release|x86.Build.0 = Release|Win32
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Debug|x64.ActiveCfg = Debug|x64
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Debug|x64.Build.0 = Debug|x64
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Debug|x86.ActiveCfg = Debug|Win32
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Debug|x86.Build.0 = Debug|Win32
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Release|x64.ActiveCfg = Release|x64
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Release|x64.Build.0 = Release|x64
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Release|x86.ActiveCfg = Release|Win32
-		{AA54B8EF-F1AF-429A-B322-DD7FFF43E953}.Release|x86.Build.0 = Release|Win32
 		{0552AA64-1AA7-44AD-B938-6278FB520540}.Debug|x64.ActiveCfg = Debug|x64
 		{0552AA64-1AA7-44AD-B938-6278FB520540}.Debug|x64.Build.0 = Debug|x64
 		{0552AA64-1AA7-44AD-B938-6278FB520540}.Debug|x86.ActiveCfg = Debug|Win32
@@ -111,6 +105,22 @@ Global
 		{A60CF30B-EC9D-4AD2-B13B-97FD938C2E9A}.Release|x64.Build.0 = Release|x64
 		{A60CF30B-EC9D-4AD2-B13B-97FD938C2E9A}.Release|x86.ActiveCfg = Release|Win32
 		{A60CF30B-EC9D-4AD2-B13B-97FD938C2E9A}.Release|x86.Build.0 = Release|Win32
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Debug|x64.ActiveCfg = Debug|x64
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Debug|x64.Build.0 = Debug|x64
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Debug|x86.Build.0 = Debug|Win32
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Release|x64.ActiveCfg = Release|x64
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Release|x64.Build.0 = Release|x64
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Release|x86.ActiveCfg = Release|Win32
+		{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}.Release|x86.Build.0 = Release|Win32
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Debug|x64.ActiveCfg = Debug|x64
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Debug|x64.Build.0 = Debug|x64
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Debug|x86.Build.0 = Debug|Win32
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Release|x64.ActiveCfg = Release|x64
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Release|x64.Build.0 = Release|x64
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Release|x86.ActiveCfg = Release|Win32
+		{9B16DCCA-7F84-460D-9785-23E1799D93E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9B16DCCA-7F84-460D-9785-23E1799D93E3}</ProjectGuid>
+    <ProjectGuid>{F8EEEBBD-88C6-49C2-A8E7-667FD926601E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ColorSpace</RootNamespace>
+    <RootNamespace>cvtColorPro</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ColorSpace.cpp" />
+    <ClCompile Include="cvtColorPro.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
