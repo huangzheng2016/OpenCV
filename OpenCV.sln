@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PixelCount", "PixelCount\Pi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawGraph", "DrawGraph\DrawGraph.vcxproj", "{ED63D714-C203-4063-95B6-77CE0B5BBD9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomNumLine", "RandomNumLine\RandomNumLine.vcxproj", "{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{ED63D714-C203-4063-95B6-77CE0B5BBD9F}.Release|x64.Build.0 = Release|x64
 		{ED63D714-C203-4063-95B6-77CE0B5BBD9F}.Release|x86.ActiveCfg = Release|Win32
 		{ED63D714-C203-4063-95B6-77CE0B5BBD9F}.Release|x86.Build.0 = Release|Win32
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Debug|x64.ActiveCfg = Debug|x64
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Debug|x64.Build.0 = Debug|x64
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Debug|x86.ActiveCfg = Debug|Win32
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Debug|x86.Build.0 = Debug|Win32
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x64.ActiveCfg = Release|x64
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x64.Build.0 = Release|x64
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x86.ActiveCfg = Release|Win32
+		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
