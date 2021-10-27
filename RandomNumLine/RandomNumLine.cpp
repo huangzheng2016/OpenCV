@@ -2,7 +2,6 @@
 #include <ctime>
 using namespace cv;
 int main() {
-	Mat img = imread("hz2016.jpg");
 	Mat canvas = Mat::zeros(Size(1024, 1024), CV_8UC3);
 	int w = canvas.cols, h = canvas.rows;
 	RNG rng(time(0));//随机数种子默认rng(time(0))
