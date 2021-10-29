@@ -1,6 +1,5 @@
 ﻿#include <opencv2/opencv.hpp>
 #include <cstdio>
-//#include <iostream>
 using namespace cv;
 int main() {
 	Mat img = imread("hz2016.jpg");

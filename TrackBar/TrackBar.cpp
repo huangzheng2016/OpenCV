@@ -1,6 +1,4 @@
 ﻿#include <opencv2/opencv.hpp>
-//#include <cstdio>
-//#include <iostream>
 using namespace cv;
 static void on_lightness(int lightness, void* userdata) {
 	Mat img = *((Mat*)userdata);

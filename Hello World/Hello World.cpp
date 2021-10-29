@@ -1,5 +1,4 @@
 ﻿#include <opencv2/opencv.hpp>
-//#include<cstdio>
 using namespace cv;
 int main() {
 	Mat img = imread("hz2016.jpg", IMREAD_GRAYSCALE);//Mat二位矩阵，引号内选一张自己计算机内的图片的路径

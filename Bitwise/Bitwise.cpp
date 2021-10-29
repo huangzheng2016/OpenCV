@@ -1,6 +1,4 @@
 ﻿#include <opencv2/opencv.hpp>
-//#include <cstdio>
-//#include <iostream>
 using namespace cv;
 int main() {
 	Mat a = Mat::zeros(Size(256, 256), CV_8UC3);
