@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawGraph", "DrawGraph\Draw
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomNumLine", "RandomNumLine\RandomNumLine.vcxproj", "{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiEdgeDraw", "MultiEdgeDraw\MultiEdgeDraw.vcxproj", "{4FBC2A79-B07A-4675-AAE7-5062B74596CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x64.Build.0 = Release|x64
 		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x86.ActiveCfg = Release|Win32
 		{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}.Release|x86.Build.0 = Release|Win32
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Debug|x64.ActiveCfg = Debug|x64
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Debug|x64.Build.0 = Debug|x64
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Debug|x86.Build.0 = Debug|Win32
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x64.ActiveCfg = Release|x64
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x64.Build.0 = Release|x64
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x86.ActiveCfg = Release|Win32
+		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
