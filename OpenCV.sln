@@ -11,8 +11,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageChange", "ImageChange\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageOperate", "ImageOperate\ImageOperate.vcxproj", "{D162ECE7-ABA5-4855-BDC4-67A94E3D30D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrackBar", "TrackBar\TrackBar.vcxproj", "{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyboardControl", "KeyboardControl\KeyboardControl.vcxproj", "{7D193CED-1207-4488-AF99-81FECA8ED019}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorMapControl", "ColorMapControl\ColorMapControl.vcxproj", "{0C46F1D1-4E42-48C6-BD28-AF2B4B630C3C}"
@@ -32,6 +30,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomNumLine", "RandomNumLine\RandomNumLine.vcxproj", "{00C232B1-5E8E-47D2-BBA9-817E4B9F1BED}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiEdgeDraw", "MultiEdgeDraw\MultiEdgeDraw.vcxproj", "{4FBC2A79-B07A-4675-AAE7-5062B74596CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MouseMessage", "MouseMessage\MouseMessage.vcxproj", "{239F3590-83FE-4859-836D-FCC176AAF9AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrackBar", "TrackBar\TrackBar.vcxproj", "{4C62C2D6-3630-4254-AEF1-B300750DF6E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,14 +75,6 @@ Global
 		{D162ECE7-ABA5-4855-BDC4-67A94E3D30D3}.Release|x64.Build.0 = Release|x64
 		{D162ECE7-ABA5-4855-BDC4-67A94E3D30D3}.Release|x86.ActiveCfg = Release|Win32
 		{D162ECE7-ABA5-4855-BDC4-67A94E3D30D3}.Release|x86.Build.0 = Release|Win32
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Debug|x64.ActiveCfg = Debug|x64
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Debug|x64.Build.0 = Debug|x64
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Debug|x86.ActiveCfg = Debug|Win32
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Debug|x86.Build.0 = Debug|Win32
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Release|x64.ActiveCfg = Release|x64
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Release|x64.Build.0 = Release|x64
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Release|x86.ActiveCfg = Release|Win32
-		{B875CBEF-333D-43A2-BC54-A7DA926CB9BD}.Release|x86.Build.0 = Release|Win32
 		{7D193CED-1207-4488-AF99-81FECA8ED019}.Debug|x64.ActiveCfg = Debug|x64
 		{7D193CED-1207-4488-AF99-81FECA8ED019}.Debug|x64.Build.0 = Debug|x64
 		{7D193CED-1207-4488-AF99-81FECA8ED019}.Debug|x86.ActiveCfg = Debug|Win32
@@ -161,6 +155,22 @@ Global
 		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x64.Build.0 = Release|x64
 		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x86.ActiveCfg = Release|Win32
 		{4FBC2A79-B07A-4675-AAE7-5062B74596CA}.Release|x86.Build.0 = Release|Win32
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Debug|x64.ActiveCfg = Debug|x64
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Debug|x64.Build.0 = Debug|x64
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Debug|x86.Build.0 = Debug|Win32
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Release|x64.ActiveCfg = Release|x64
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Release|x64.Build.0 = Release|x64
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Release|x86.ActiveCfg = Release|Win32
+		{239F3590-83FE-4859-836D-FCC176AAF9AA}.Release|x86.Build.0 = Release|Win32
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Debug|x64.ActiveCfg = Debug|x64
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Debug|x64.Build.0 = Debug|x64
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Debug|x86.Build.0 = Debug|Win32
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Release|x64.ActiveCfg = Release|x64
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Release|x64.Build.0 = Release|x64
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Release|x86.ActiveCfg = Release|Win32
+		{4C62C2D6-3630-4254-AEF1-B300750DF6E4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
