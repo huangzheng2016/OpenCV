@@ -9,7 +9,7 @@ static void onDraw(int event, int x, int y, int flags, void *userdata) {
 	/*
 	x = std::max(std::min(x, img.cols), 0);
 	y = std::max(std::min(y, img.rows), 0);
-	其实这里的x已经是不会超出窗口的打消了，但是在下面计算dx,dy时不能+1,很可能在draw时爆炸
+	其实这里的x已经是不会超出窗口的大小了，但是在下面计算dx,dy时不能+1,很可能在draw时爆炸
 	*/
 	if (event == EVENT_LBUTTONDOWN) {
 		st.x = x, st.y = y;
