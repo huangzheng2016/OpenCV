@@ -23,6 +23,7 @@ static void onDraw(int event, int x, int y, int flags, void *userdata) {
 		Rect box(std::min(st.x,ed.x), std::min(st.y,ed.y), dx, dy);
 		rectangle(img, box, Scalar(0, 0, 255), 2, LINE_8);
 		imshow("Draw", img);
+		namedWindow("Box", WINDOW_FREERATIO);//添加FREETATIO指令使得其可以移动
 		imshow("Box", img(box));//提取区域图像
 		onDown = false;
 	}
