@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PixivNorm", "PixivNorm\Pixi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhotoResize", "PhotoResize\PhotoResize.vcxproj", "{C401AF49-66C4-4D78-9C56-58EBE1B6685F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhotoFlipSpin", "PhotoFlipSpin\PhotoFlipSpin.vcxproj", "{4099E46F-A8EC-4453-AE7A-7A5450336EB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{C401AF49-66C4-4D78-9C56-58EBE1B6685F}.Release|x64.Build.0 = Release|x64
 		{C401AF49-66C4-4D78-9C56-58EBE1B6685F}.Release|x86.ActiveCfg = Release|Win32
 		{C401AF49-66C4-4D78-9C56-58EBE1B6685F}.Release|x86.Build.0 = Release|Win32
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Debug|x64.ActiveCfg = Debug|x64
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Debug|x64.Build.0 = Debug|x64
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Debug|x86.Build.0 = Debug|Win32
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Release|x64.ActiveCfg = Release|x64
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Release|x64.Build.0 = Release|x64
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Release|x86.ActiveCfg = Release|Win32
+		{4099E46F-A8EC-4453-AE7A-7A5450336EB6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
