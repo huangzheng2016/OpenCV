@@ -13,7 +13,6 @@ int main() {
 			capture.set(CAP_PROP_FRAME_WIDTH, 1280);
 			capture.set(CAP_PROP_FRAME_HEIGHT, 720);
 			capture.set(CAP_PROP_FOURCC, VideoWriter::fourcc('M', 'J', 'P', 'G'));//MJPG压缩格式，有效提高帧率
-			//你要set一个支持的分辨率
 		#endif
 	#endif
 	int frame_width = capture.get(CAP_PROP_FRAME_WIDTH), frame_height = capture.get(CAP_PROP_FRAME_HEIGHT);//视频宽高
@@ -39,7 +38,6 @@ int main() {
 		writer.write(frame);
 		int c = waitKey(1);
 		if (c == 27)break;
-
 	}
 	time(&end);
 	second = difftime(end, start);
