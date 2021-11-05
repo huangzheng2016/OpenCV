@@ -12,7 +12,7 @@ int main() {
 		#if defined Resolution720P
 			capture.set(CAP_PROP_FRAME_WIDTH, 1280);
 			capture.set(CAP_PROP_FRAME_HEIGHT, 720);
-			capture.set(CAP_PROP_FOURCC, VideoWriter::fourcc('M', 'J', 'P', 'G'));//MJPG压缩格式，有效提高帧率
+			capture.set(CAP_PROP_FOURCC, VideoWriter::fourcc('M', 'J', 'P', 'G'));//MJPG压缩格式，有效提高帧率,AAVI为无压缩格式
 		#endif
 	#endif
 	int frame_width = capture.get(CAP_PROP_FRAME_WIDTH), frame_height = capture.get(CAP_PROP_FRAME_HEIGHT);//视频宽高
